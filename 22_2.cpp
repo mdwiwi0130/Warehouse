@@ -14,7 +14,7 @@ int main() {
     float r,h;
     for(int i=1;i<=10;i++){
     cin>>r>>h;
-    cout<<"圓柱體體積"<<fixed<<setprecision(6)<<f(r,h);
+    cout<<"圓柱體體積"<<fixed<<setprecision(2)<<f(r,h)<<"\n";
 	}
     return 0;
 }
