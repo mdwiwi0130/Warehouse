@@ -12,8 +12,9 @@ float f(float r,float h){
 }
 int main() { 
     float r,h;
-    for(int i=1;i<=10;i++)
+    for(int i=1;i<=10;i++){
     cin>>r>>h;
     cout<<"圓柱體體積"<<fixed<<setprecision(6)<<f(r,h);
+	}
     return 0;
 }
